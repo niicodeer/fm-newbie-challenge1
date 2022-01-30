@@ -45,8 +45,8 @@ body::before {
     position: relative;
 }
 .card{
-    width: 350px;
     max-width: 350px;
+    width: 100%;
     background-color: #fff; 
     border-radius: 15px;
     overflow: hidden;
