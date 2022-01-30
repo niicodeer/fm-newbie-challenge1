@@ -46,6 +46,7 @@ body::before {
 }
 .card{
     width: 350px;
+    max-width: 350px;
     background-color: #fff; 
     border-radius: 15px;
     overflow: hidden;
