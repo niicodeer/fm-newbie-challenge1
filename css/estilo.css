@@ -1,3 +1,18 @@
+/* - Mobile: 375px
+- Desktop: 1440px
+
+
+## Typography
+
+### Body Copy
+
+- Font size (name and stats): 18px
+
+### Font
+
+- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+- Weights: 400, 700 */
+
 :root{
     --dark_cyan: hsl(185, 75%, 39%);
     --very_dark_blue: hsl(229, 23%, 23%);
@@ -6,12 +21,8 @@
 }
 html, *{
     box-sizing: border-box;
-    font-size: 62.5%;   
+    font-size: 62.5%;
 }
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
 body{
     position: relative;
     background-color: var(--dark_cyan);
@@ -36,6 +47,7 @@ body::before {
     left: 100%;
     background: url("../images/bg-pattern-bottom.svg") no-repeat top left; 
 }
+    
 .flex{
     display: flex;
     justify-content: center;
@@ -43,6 +55,7 @@ body::before {
     height: 100vh;
     z-index: 1;
     position: relative;
+     
 }
 .card{
     max-width: 350px;
@@ -51,6 +64,7 @@ body::before {
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
+
 }
 .card_header{
     width: 100%;
@@ -62,6 +76,7 @@ body::before {
     flex-direction: column;
     align-items: center;
     border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+    /* margin: 16px; */
 }
 .card_user_image{
     border-radius: 50%;
@@ -87,6 +102,7 @@ span{
     color: var(--dark_gray);
     margin-bottom: 2rem;
     margin-top: 0;
+
 }
 .card_footer{
     display: flex;
